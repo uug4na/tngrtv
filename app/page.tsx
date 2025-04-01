@@ -294,12 +294,12 @@ export default function Home() {
 
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                         {[
-                            { title: "Кибер Ертөнц", desc: "Технологийн хамгийн сүүлийн үеийн мэдээлэл", image: "asd/1.png" },
-                            { title: "Дижитал Зураглал", desc: "Дижитал урлагийн онцлох бүтээлүүд", image: "asd/1.png" },
-                            { title: "Хиймэл Оюун Ухаан", desc: "AI-н хөгжил, шинэ дэвшлүүд", image: "asd/1.png" },
-                            { title: "Крипто Мэдээ", desc: "Криптовалют, блокчэйний мэдээлэл", image: "asd/1.png" },
-                            { title: "Шинжлэх Ухаан", desc: "Шинжлэх ухааны сүүлийн үеийн нээлтүүд", image: "asd/1.png" },
-                            { title: "Ирээдүйн Технологи", desc: "Ирээдүйн технологийн чиг хандлага", image: "asd/1.png" },
+                            { title: "БУУХИА", desc: "30 зочин, 30 өнцөг, 30 яриа, 30 өнгө", image: "/eds/buuhai.png" },
+                            { title: "ГЭЖ ЮУ ВЭ?", desc: "Шинжлэх ухааныг хамгийн энгийн, хамгийн сонирхолтойгоор", image: "/eds/2.png" },
+                            { title: "7:10 мэдээллийн хөтөлбөр", desc: "Бодит өнцөг, итгэлт эх сурвалж, шударга дуу хоолой", image: "/eds/3.png" },
+                            { title: "БОДЛОГЫН МЭТГЭЛЦЭЭН", desc: "Улс төрийн боловсролыг хамгийн хүртээмжтэй байдлаар", image: "eds/4.png" },
+                            { title: "Techworm", desc: "Технологийн ертөнцийн хамгийн сүүлийн үеийн мэдээ, мэдээллийг", image: "eds/5.png" },
+                            { title: "TenGer Panel", desc: "Мэргэжлийн экспертүүдийн өнцөг, дуу хоолой, үзэл бодол", image: "eds/6.png" },
                         ].map((program, index) => (
                             <div key={index} className="group">
                                 <div className="relative">
@@ -307,7 +307,7 @@ export default function Home() {
                                     <div className="relative bg-black/80 backdrop-blur-sm p-1 rounded-lg border border-purple-500/50 overflow-hidden group-hover:border-cyan-400 transition-colors">
                                         <div className="aspect-video rounded-lg overflow-hidden bg-black/90">
                                             <Image
-                                                src={`/placeholder.svg?height=200&width=350`}
+                                                src={program.image}
                                                 alt={program.title}
                                                 className="w-full h-full object-cover"
                                                 width={350}
@@ -393,7 +393,7 @@ export default function Home() {
                                     </div>
                                     <div>
                                         <p className="text-sm text-gray-500">Имэйл</p>
-                                        <p className="text-white">info@tngr.tv</p>
+                                        <p className="text-white">Hello@tngr.tv</p>
                                     </div>
                                 </div>
                                 <div className="flex items-center gap-3">
@@ -415,7 +415,7 @@ export default function Home() {
                                     </div>
                                     <div>
                                         <p className="text-sm text-gray-500">Хаяг</p>
-                                        <p className="text-white">Улаанбаатар хот, Сүхбаатар дүүрэг</p>
+                                        <p className="text-white">Улаанбаатар хот, Баянзүрх дүүрэг, 1-р хороо, TenGer TV-ийн байр</p>
                                     </div>
                                 </div>
                             </div>
