@@ -107,7 +107,7 @@ export default function Home() {
                                 <div className="relative bg-black/80 backdrop-blur-sm p-1 rounded-lg border border-purple-500/50">
                                     <div className="aspect-video rounded-lg overflow-hidden bg-black/90">
                                         <Image
-                                            src="/placeholder.svg?height=400&width=600"
+                                            src="/image.png"
                                             alt="TNGR.TV студи"
                                             className="w-full h-full object-cover mix-blend-lighten opacity-80"
                                             width={600}
@@ -118,23 +118,7 @@ export default function Home() {
                             </div>
                         </div>
                         <div className="md:w-1/2">
-                            <div className="flex items-center gap-2 mb-4">
-                                <svg
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    width="20"
-                                    height="20"
-                                    viewBox="0 0 24 24"
-                                    fill="none"
-                                    stroke="currentColor"
-                                    strokeWidth="2"
-                                    strokeLinecap="round"
-                                    strokeLinejoin="round"
-                                    className="text-cyan-400"
-                                >
-                                    <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
-                                </svg>
-                                <h2 className="text-xl font-semibold text-cyan-400">Бидний тухай</h2>
-                            </div>
+
                             <h3 className="text-3xl md:text-4xl font-bold mb-6">TenGer TV: НИЙГМИЙН ИТГЭЛЦЛИЙГ СЭРГЭЭНЭ                            </h3>
                             <p className="text-gray-400 mb-4">
                                 Про Медиа Нетворк ХХК-ийн эрхлэн явуулдаг TenGer TV нь 2022 онд телевизийн салбарт цоо шинэ өнгө төрх, дэвшилтэт агуулга, чанартай боловсон хүчний бодлоготойгоор үйл ажиллагаагаа эхлүүлсэн.
