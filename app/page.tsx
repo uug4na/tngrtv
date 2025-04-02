@@ -107,7 +107,7 @@ export default function Home() {
                                 <div className="relative bg-black/80 backdrop-blur-sm p-1 rounded-lg border border-purple-500/50">
                                     <div className="aspect-video rounded-lg overflow-hidden bg-black/90">
                                         <Image
-                                            src="/image.png"
+                                            src="/banner.jpg"
                                             alt="TNGR.TV студи"
                                             className="w-full h-full object-cover mix-blend-lighten opacity-80"
                                             width={600}
@@ -118,7 +118,23 @@ export default function Home() {
                             </div>
                         </div>
                         <div className="md:w-1/2">
-
+                            <div className="flex items-center gap-2 mb-4">
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="20"
+                                    height="20"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    strokeWidth="2"
+                                    strokeLinecap="round"
+                                    strokeLinejoin="round"
+                                    className="text-cyan-400"
+                                >
+                                    <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
+                                </svg>
+                                <h2 className="text-xl font-semibold text-cyan-400">Бидний тухай</h2>
+                            </div>
                             <h3 className="text-3xl md:text-4xl font-bold mb-6">TenGer TV: НИЙГМИЙН ИТГЭЛЦЛИЙГ СЭРГЭЭНЭ                            </h3>
                             <p className="text-gray-400 mb-4">
                                 Про Медиа Нетворк ХХК-ийн эрхлэн явуулдаг TenGer TV нь 2022 онд телевизийн салбарт цоо шинэ өнгө төрх, дэвшилтэт агуулга, чанартай боловсон хүчний бодлоготойгоор үйл ажиллагаагаа эхлүүлсэн.
@@ -159,8 +175,7 @@ export default function Home() {
                         </div>
                         <h3 className="text-3xl md:text-4xl font-bold mb-6">Мэргэжлийн хамт олон</h3>
                         <p className="text-gray-400 max-w-2xl mx-auto">
-                            Манай баг нь мэргэжлийн сэтгүүлчид, технологийн шинжээчид, дизайнерууд, програмистуудаас бүрддэг бөгөөд
-                            хамгийн чанартай контентыг үйлдвэрлэхийг зорьж байна.
+                            Манай баг мэргэжлийн уран бүтээлчид, чадварлаг сэтгүүлчид, эрч хүчтэй залуусаар багаа бүрдүүлэн танд хамгийн чанартай, бүтээлч агуулгыг хүргэхээр зорин ажиллаж байна
                         </p>
                     </div>
 
@@ -168,7 +183,7 @@ export default function Home() {
                     <div className="mb-12">
                         <h4 className="text-2xl font-bold mb-6 text-center">
                             <span className="bg-clip-text text-transparent bg-gradient-to-r from-cyan-400 to-purple-600">
-                                Удирдлагын баг
+                                Манай баг
                             </span>
                         </h4>
                         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -178,6 +193,12 @@ export default function Home() {
                                 { name: "Ө.Энхгэрэл", role: "Үйл ажиллагаа хариуцсан захирал", image: "bsd/3.png" },
                                 { name: "Б.Ариунцэцэг", role: "Мэдээний албаны ахлах продюсер", image: "bsd/4.png" },
                                 { name: "Ж.Хулан", role: "Зөвлөх продюсер", image: "bsd/5.png" },
+                                { name: "О. Ариунтуул", role: "Анкор, продюсер", image: "bsd/6.jpg" },
+                                { name: "П.Доржпалам", role: "Контент бүтээгч, шинжлэх ухааны мэдээний продюсер", image: "bsd/7.png" },
+                                { name: "Б.Ганцацрал", role: "Анкор", image: "bsd/8.png" },
+                                { name: "Э.Энхбулган", role: "Анкор, гадаад мэдээний продюсер", image: "bsd/9.png" },
+                                { name: "Г.Алтансүх", role: "Ахлах найруулагч, төслийн удирдагч", image: "bsd/10.png" },
+
 
                             ].map((member, index) => (
                                 <div key={index} className="group">
@@ -205,10 +226,10 @@ export default function Home() {
                     </div>
 
                     {/* Leadership Team */}
-                    <div>
+                    {/* <div>
                         <h4 className="text-2xl font-bold mb-6 text-center">
                             <span className="bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-cyan-600">
-                                Нэвтрүүлгийн удирдлага
+                                Төлөөлөн удирдах зөвлөл
                             </span>
                         </h4>
                         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -243,7 +264,7 @@ export default function Home() {
                                 </div>
                             ))}
                         </div>
-                    </div>
+                    </div> */}
                 </div>
             </section>
 
